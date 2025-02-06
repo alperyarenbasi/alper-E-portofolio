@@ -1,0 +1,200 @@
+:root {
+    --main-color: #3498db; /* Define the color variable */
+  }
+
+header {
+    width: 100%;
+    background-color: rgba(17,20,24,1);
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#profile-pic-container {
+    height: 60%;
+    aspect-ratio: 1/1;
+    margin: 0 0 0 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    color: #e5e7eb;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#profile-pic {
+    height: 100%;
+    aspect-ratio: auto;
+    position: relative;
+    right: 0;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0 25px 0 auto;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 25px
+}
+
+header a {
+    text-decoration: none;
+    color: #e5e7eb;
+    transition: 500ms 5ms;
+}
+
+header a:hover {
+    color: var(--main-color);;
+    transition: 250ms 5ms;
+}
+
+header a:active {
+    color: var(--main-color);;
+}
+
+#title {
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(10,10,10,0.75);
+}
+
+#title h1 {
+    font-size: 4rem;
+    color: #e5e7eb;
+
+}
+
+#content {
+    width: 100%;
+    height: auto;
+    min-height: 60vh;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+}
+
+form {
+    margin-top: 25px;
+    width: 25%;
+    min-width: 300px;
+    max-width: 350px;
+}
+
+form * {
+    display: block;
+}
+
+form label {
+    font-size: 1.5rem;
+}
+
+form input, form textarea {
+    margin: 5px 0 10px;
+    width: 100%;
+    max-width: 350px;
+    font-size: 20px;
+}
+
+form input::selection, #add-info::selection {
+    color: white;
+    background-color: blue;
+}
+
+.field {
+    height: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#add-info {
+    height: auto;
+    padding: 2px;
+}
+
+#submit-button {
+    width: 150px;
+    height: 50px;
+    margin: 25px auto 25px auto;
+    border-radius: 25px;
+    background-color: #20c997;
+    border: 4px solid #20c997;
+    color: white;
+    transition: 500ms 5ms;
+}
+
+#submit-button:hover {
+    background-color: transparent;
+    color: var(--main-color);;
+    transition: 250ms 5ms;
+}
+
+#submit-button:active {
+    background-color: transparent;
+    color: var(--main-color);;
+    transition: 250ms 5ms;
+}
+
+footer {
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+#footer-text {
+    margin-left: 50px;
+    color: #5c5d5d;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #5c5d5d;
+    transition: 500ms 5ms;
+}
+
+.footer-link:hover {
+    color: var(--main-color);;
+    transition: 250ms 5ms;
+}
+
+.footer-link:active {
+    color: var(--main-color);;
+}
+
+.footer-link:first-of-type {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.footer-link:last-of-type {
+    margin-right: 50px;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .field {
+        height: 40px;
+    }
+
+}
