@@ -17,14 +17,14 @@ export default function AboutPage() {
             <div className="space-y-8">
               <div className="aspect-square rounded-2xl overflow-hidden">
                 <img
-                  src="src/files/me.jpg"
+                  src="/me.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-square rounded-2xl overflow-hidden">
                 <img
-                  src="src/files/pinkTrondheim.jpg"
+                  src="/yellowBuilding.jpg"
                   alt="Hobby"
                   className="w-full h-full object-cover"
                 />

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Github, Linkedin, ChevronDown } from 'lucide-react';
 
+
 export default function Hero() {
   return (
     <div className="min-h-screen relative bg-[#f5f5f5] text-[#1a1a1a] pt-16">
@@ -25,7 +26,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-6xl font-light mb-6">
-              Engineer the Future of
+              Engineer Of The Future,
               <span className="font-bold block mt-2">Alper Yarenbasi</span>
             </h1>
             
@@ -53,7 +54,7 @@ export default function Hero() {
               </motion.a>
               
               <motion.a
-                href="https://linkedin.com/in/your-profile"
+                href="https://linkedin.com/alperyarenbasi"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
@@ -72,7 +73,7 @@ export default function Hero() {
           >
             <div className="absolute inset-0 bg-blue-300 rounded-2xl flex items-end justify-center overflow-hidden">
               <img
-                src="src/files/biblo.jpg"
+                src="/pinkTrondheim.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
