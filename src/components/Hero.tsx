@@ -26,7 +26,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-6xl font-light mb-6">
-              Engineer Of The Future,
+            Future Engineer
               <span className="font-bold block mt-2">Alper Yarenbasi</span>
             </h1>
             
@@ -73,7 +73,7 @@ export default function Hero() {
           >
             <div className="absolute inset-0 bg-blue-300 rounded-2xl flex items-end justify-center overflow-hidden">
               <img
-                src="/pinkTrondheim.jpg"
+                src="/idun.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
@@ -84,7 +84,7 @@ export default function Hero() {
                 transition={{ duration: 1 }}
               />
             </div>
-          </motion.div>
+        </motion.div>
         </div>
 
         <motion.div

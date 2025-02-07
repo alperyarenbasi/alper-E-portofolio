@@ -45,7 +45,7 @@ export default function Projects() {
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="text-4xl font-bold mb-12 text-center"
+          className="text-4xl font-bold mb-12 text-center "
         >
           Featured Projects
         </motion.h2>
