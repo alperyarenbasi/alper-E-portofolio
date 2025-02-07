@@ -12,8 +12,13 @@ export default function Navigation() {
     >
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
+          {/* 
           <Link to="/" className="text-xl font-bold text-[#1a1a1a]">
             AY
+          </Link>
+          */}
+          <Link to="/" className="flex items-center">
+            <img src="/favicon_io3/android-chrome-512x512.png" alt="Logo" className="h-8" /> {/* Adjust height as needed */}
           </Link>
           
           <div className="flex items-center space-x-8">
