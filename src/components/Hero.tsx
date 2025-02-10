@@ -71,7 +71,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="relative aspect-square"
           >
-            <div className="absolute inset-0 bg-blue-300 rounded-2xl flex items-end justify-center overflow-hidden">
+            <div className="absolute inset-0 rounded-3xl flex items-end justify-center overflow-hidden">
               <img
                 src="/idun.jpg"
                 alt="Profile"

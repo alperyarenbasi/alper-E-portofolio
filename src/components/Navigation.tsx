@@ -18,7 +18,7 @@ export default function Navigation() {
           </Link>
           */}
           <Link to="/" className="flex items-center">
-            <img src="/favicon_io3/android-chrome-512x512.png" alt="Logo" className="h-8" /> {/* Adjust height as needed */}
+            <img src="/roundLogo.png" alt="Logo" className="h-11" /> {/* Adjust height as needed */}
           </Link>
           
           <div className="flex items-center space-x-8">
