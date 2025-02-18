@@ -5,13 +5,14 @@ import { Project } from '../types';
 const featuredProjects: Project[] = [
   {
     id: '1',
-    name: 'Autonomous Robot Navigation',
-    description: 'ROS-based navigation system using SLAM and path planning algorithms.',
-    technologies: ['ROS', 'Python', 'C++', 'Computer Vision'],
+    name: 'AutoTrack Pi (in progress)',
+    description: 'Intelligent Servo Tracking & Stabilization System.',
+    technologies: ['raspberry pi', 'Dual-axis servo', 'IMU sensor', 'solar tracking?'],
     githubUrl: 'https://github.com/alperyarenbasi/robot-nav',
     featured: true,
     image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80'
   },
+  /*
   {
     id: '2',
     name: 'Machine Learning Pipeline',
@@ -21,6 +22,7 @@ const featuredProjects: Project[] = [
     featured: true,
     image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80'
   }
+  */
 ];
 
 export default function FeaturedProjects() {

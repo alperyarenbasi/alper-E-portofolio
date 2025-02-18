@@ -9,8 +9,8 @@ const universities = [
     courses: [
       "Embeded Systems",
       "Computer Architecture",
-      "Statistics",
-      "Mechatronics"
+      "Methods in AI",
+      "Phd course: Advanced Computing"
     ]
   },
   {

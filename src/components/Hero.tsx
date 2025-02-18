@@ -36,12 +36,14 @@ export default function Hero() {
               {/* MBY TEXT HERE? */}
               </p>
             <div className="flex items-center space-x-6">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                className="px-8 py-3 bg-[#1a1a1a] text-white rounded-full inline-flex items-center space-x-2 hover:bg-[#007AFF] transition-colors"
-              >
-              Get My Resume
-              </motion.button>
+              <a href="/Alper Yarenbasi resume.pdf" download>
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  className="px-8 py-3 bg-[#1a1a1a] text-white rounded-full inline-flex items-center space-x-2 hover:bg-[#007AFF] transition-colors"
+                >
+                  Get My Resume
+                </motion.button>
+              </a>
               
               <motion.a
                 href="https://github.com/alperyarenbasi"
@@ -54,7 +56,7 @@ export default function Hero() {
               </motion.a>
               
               <motion.a
-                href="https://linkedin.com/alperyarenbasi"
+                href="https://www.linkedin.com/in/alperyarenbasi/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}

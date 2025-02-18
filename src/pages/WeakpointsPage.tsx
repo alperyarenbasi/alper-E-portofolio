@@ -90,8 +90,8 @@ export default function WeakpointsPage() {
             >
               <h3 className="text-xl font-bold mb-2">Perfectionism</h3>
               <p className="text-gray-600">
-                Sometimes I spend too much time optimizing code that's already good enough.
-                But hey, is pixel-perfect really a weakness? 😉
+              Sometimes, I get caught up in the details, tweaking and refining until everything feels just right.  
+              But hey, is striving for pixel-perfection really a weakness?
               </p>
             </motion.div>
 
@@ -99,10 +99,10 @@ export default function WeakpointsPage() {
               whileHover={{ scale: 1.02 }}
               className="bg-white p-6 rounded-xl shadow-sm"
             >
-              <h3 className="text-xl font-bold mb-2">Coffee Dependency</h3>
+              <h3 className="text-xl font-bold mb-2">Caffeine Dependency</h3>
               <p className="text-gray-600">
-                My code quality is directly proportional to my coffee intake.
-                Currently working on a machine learning model to optimize this correlation.
+                Whether it's coffee or an energy drink, caffeine fuels my days.  
+                Still trying to find the perfect balance between productivity and over-caffeination. ☕⚡
               </p>
             </motion.div>
 
@@ -110,10 +110,10 @@ export default function WeakpointsPage() {
               whileHover={{ scale: 1.02 }}
               className="bg-white p-6 rounded-xl shadow-sm"
             >
-              <h3 className="text-xl font-bold mb-2">Debug Addiction</h3>
+              <h3 className="text-xl font-bold mb-2">Endless Curiosity</h3>
               <p className="text-gray-600">
-                I enjoy solving complex problems so much that I sometimes forget to take breaks.
-                At least bugs fear me now!
+                I have a habit of diving deep into topics that catch my interest—sometimes a little too deep.  
+                One minute I'm researching something simple, the next I'm five tabs deep into computational fluid dynamics.  
               </p>
             </motion.div>
           </div>

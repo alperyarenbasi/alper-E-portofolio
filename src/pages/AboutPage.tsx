@@ -32,22 +32,27 @@ export default function AboutPage() {
             </div>
 
             <div className="space-y-8">
-              <div className="prose prose-lg">
-                <h2 className="text-2xl font-bold mb-4">The Journey</h2>
-                <p className="text-gray-600">
-                  As a student of Cybernetics and Robotics Engineering with a parallel pursuit in Computer Science, 
-                  I'm passionate about bridging the gap between human intelligence and machine capabilities.
-                </p>
-              </div>
+  <div className="prose prose-lg">
+    <h2 className="text-2xl font-bold mb-4">The Journey</h2>
+    <p className="text-gray-600">
+      As a student of Cybernetics and Robotics Engineering with a parallel pursuit in Computer Science, 
+      I'm passionate about bridging the gap between human intelligence and machine capabilities. 
+      Whether it's developing automation systems, optimizing algorithms, or diving into the latest in AI, 
+      I'm always eager to push boundaries and solve real-world challenges.
+    </p>
+  </div>
 
-              <div className="prose prose-lg">
-                <h2 className="text-2xl font-bold mb-4">Hobbies & Interests</h2>
-                <p className="text-gray-600">
-                  When I'm not coding or working with robots, you'll find me [Your Hobbies]. 
-                  I believe in maintaining a balance between technical expertise and creative pursuits.
-                </p>
-              </div>
-            </div>
+  <div className="prose prose-lg">
+    <h2 className="text-2xl font-bold mb-4">Hobbies & Interests</h2>
+    <p className="text-gray-600">
+      When I'm not coding or working with robotics, I like to keep myself engaged with different activities. 
+      I enjoy working out, cooking new recipes, and tinkering with side projects that challenge my creativity. 
+      Whether it’s experimenting in the kitchen or optimizing my workout routine, I find joy in learning and improving in all aspects of life. 
+      Balancing technical expertise with personal interests keeps me motivated and constantly evolving.
+    </p>
+  </div>
+</div>
+
           </div>
 
         </motion.div>
